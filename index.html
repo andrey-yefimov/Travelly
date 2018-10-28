@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Travelly</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="page">
+	<section class="visual" style="background-image: url(images/main-img.jpg)">
+		<div class="container">
+			<header class="header">
+				<div class="logo"><a href=""><img src="images/logo.png" alt=""></a></div>
+				<nav class="nav">
+				<a class="btn-nav" href="#"><span></span></a>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</nav>
+			</header>
+			<form action="" class="search-form">
+				<h1>Where will you go next?</h1>
+				<div class="form-holder">
+					<input type="search" placeholder="Start typing...">
+					<input type="submit" value="GO">
+				</div>
+			</form>
+		</div>
+		</section>
+		<main role="main">
+			<section class="promo-section">
+				<div class="container">
+					<header class="promo-header">
+						<h1>Top destinations</h1>
+						<p>Some of the top destinations for your next summer adventure.</p>
+					</header>
+						<div class="holder">
+							<article class="destination">
+								<a href="#">
+									<div class="img-holder">
+										<img src="images/img01.jpg" alt="">
+										<span class="price">$1.095</span>
+									</div>
+									<div class="text-holder">
+										<h2>Amasing Australia</h2>
+										<p>Become inspired to travel to Australia. Discover fantastic things to do & places to go.</p>
+									</div>
+								</a>
+							</article>  
+							<article class="destination">
+								<a href="#">
+									<div class="img-holder">
+										<img src="images/img02.jpg" alt="">
+										<span class="price">$1.295</span>
+									</div>
+									<div class="text-holder">
+										<h2>Ancient south america</h2>
+										<p>Become inspired to travel to Australia. Discover fantastic things to do & places to go.</p>
+									</div>
+								</a>
+							</article>  
+							<article class="destination">
+								<a href="#">
+									<div class="img-holder">
+										<img src="images/img03.jpg" alt="">
+										<span class="price">$695</span>
+									</div>
+									<div class="text-holder">
+										<h2>modern north america</h2>
+										<p>Become inspired to travel to Australia. Discover fantastic things to do & places to go.</p>
+									</div>
+								</a>
+							</article>  
+							<article class="destination">
+								<a href="#">
+									<div class="img-holder">
+										<img src="images/img04.jpg" alt="">
+										<span class="price">$295</span>
+									</div>
+									<div class="text-holder">
+										<h2>Classic europe</h2>
+										<p>Become inspired to travel to Australia. Discover fantastic things to do & places to go.</p>
+									</div>
+								</a>
+							</article>  
+						</div> 
+				</div> 
+			</section>
+			<section class="travel-info">
+				<div class="container">
+					<h1>Before you leave</h1>
+					<div class="holder">
+						<div class="info">
+							<h2>visa & documents</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero consectetur necessitatibus ex beatae quasi, sint quia provident voluptas omnis expedita iusto, nam odio laborum! Alias veniam saepe, natus error perspiciatis.</p>
+						</div>
+						<div class="info">
+							<h2>Accommodation</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero consectetur necessitatibus ex beatae quasi, sint quia provident voluptas omnis expedita iusto, nam odio laborum! Alias veniam saepe, natus error perspiciatis.</p>
+						</div>
+						<div class="info">
+							<h2>transportation</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero consectetur necessitatibus ex beatae quasi, sint quia provident voluptas omnis expedita iusto, nam odio laborum! Alias veniam saepe, natus error perspiciatis.</p>
+						</div>
+					</div>  
+				</div> 
+			</section>	
+			<form action="" class="email-form">
+				<h1>Where will you go next?</h1>
+				<div class="form-holder">
+					<input type="email" placeholder="Email adress">
+					<input type="submit" value="subscribe">
+				</div>
+			</form>	
+		</main>
+	<footer class="footer">
+				<div class="container">
+					<p>Copyright © 2014 Travelly. All Rights Reserved. Designed for Despreneur.</p>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+			</footer>	
+	</div>
+	<script>   
+		const btn = document.querySelector('.btn-nav'); 
+		const box = document.body;
+
+		btn.addEventListener('click', (e) => {
+			e.preventDefault();
+			box.classList.toggle('active');
+		})
+	</script>
+</body>
+</html>
